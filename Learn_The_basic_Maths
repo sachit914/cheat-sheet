@@ -1,0 +1,26 @@
+# count numbers
+
+### Brute force Approach
+```
+    public static int countDigits(int n) {
+        // 'cnt' to store the count of digits.
+        int cnt = 0;
+        // While loop iterates until 'n is greater than 0'
+        // becomes 0 (no more digits left).
+        while (n > 0) {
+            cnt = cnt + 1;
+            // Divide 'n' by 10 to
+            // remove the last digit.
+            n = n / 10;
+        }
+        return cnt;
+    }
+```
+
+
+# Reverse the number
+
+
+
+
+
